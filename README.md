@@ -1,4 +1,4 @@
-# React + TypeScript + Vite + TailwindCSS + Framer Motion Template
+# Framer Motion Tips
 
 This project is a boilerplate for a modern web application built with React,
 TypeScript, Vite, TailwindCSS, and Framer Motion.
