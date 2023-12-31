@@ -70,7 +70,7 @@ const Header = () => {
     'Contact',
   ]
   return (
-    <div className="flex w-full items-center justify-between">
+    <div className="flex w-full items-center justify-between px-8 ">
       <div className="flex gap-6 items-center">
         <div className="w-8 h-8 rounded-full ring-1 ring-[#EBEBEB] shadow-md flex items-center justify-center font-semibold">
           F
@@ -88,7 +88,7 @@ const Header = () => {
 
 const Hero = () => {
   return (
-    <div className="px-14 py-6 flex justify-between items-end">
+    <div className="px-8 py-6 flex justify-between items-end">
       <div className="space-y-4 shrink-0">
         <div className="bg-neutral-50 border inline-block py-1 px-2 rounded-lg">
           <span className="text-sm font-[500] text-neutral-500">
@@ -97,7 +97,7 @@ const Hero = () => {
         </div>
         <AnimatedTexts />
       </div>
-      <div className="max-w-[22rem] space-y-6">
+      <div className="max-w-72 space-y-6">
         <p className="text-neutral-500">
           Explore 5900+ components, unique widgets, dashboards, and others with
           a lightning-fast experience on Figma.
@@ -113,7 +113,7 @@ const Hero = () => {
 
 export const StaggeredTextAnimation = () => {
   return (
-    <main className="w-full min-h-screen overflow-hidden px-8 py-6 bg-[#FAF8F3] text-[#272727] flex justify-center">
+    <main className="w-full min-h-screen overflow-hidden py-6 bg-[#FAF8F3] text-[#272727] flex justify-center">
       <div className="w-full max-w-5xl relative space-y-6">
         <Header />
         <Divider />
