@@ -1,9 +1,10 @@
-import { StaggeredTextAnimation } from './components/1-staggered-text-animation'
+import { SVGLinePathAnimation } from './components/2-svg-line-path-animation'
 
 function App() {
   return (
     <>
-      <StaggeredTextAnimation />
+      {/* <StaggeredTextAnimation /> */}
+      <SVGLinePathAnimation />
     </>
   )
 }
