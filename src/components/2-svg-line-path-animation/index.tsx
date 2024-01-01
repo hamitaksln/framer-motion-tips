@@ -16,10 +16,10 @@ const svgBaseVariants: Variants = {
 
 const svgBaseTransition: Transition = {
   stroke: { delay: 2 },
-  fill: { delay: 2 },
+  fill: { delay: 2, duration: 0.3 },
   ease: 'circOut',
   duration: 2,
-  delay: 0.2,
+  delay: 0.4,
 }
 
 const ReactIcon = (props: SVGProps<SVGSVGElement>) => (
