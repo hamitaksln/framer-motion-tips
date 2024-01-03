@@ -3,6 +3,11 @@
 This project is a boilerplate for a modern web application built with React,
 TypeScript, Vite, TailwindCSS, and Framer Motion.
 
+## Tips Live Demo & Code
+- [Staggered Text Animation](https://codesandbox.io/p/github/hamitaksln/framer-motion-tips/1-staggered-text-animation)
+- [SVG Path Animation](https://codesandbox.io/p/github/hamitaksln/framer-motion-tips/2-svg-line-path-animation)
+
+
 ## Technologies Used
 
 - **React**: A JavaScript library for building user interfaces.
